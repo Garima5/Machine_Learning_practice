@@ -40,9 +40,9 @@ def gradientDescent(X,Y,learning_rate,maxItr):
 
 
 #training data
-x= readData ('.../datasets/linear regression/linearX.csv')
+x= readData ('.../datasets/linearX.csv')
 x=x.reshape ((99,))
-y =readData('.../datasets/linear regression/linearY.csv')
+y =readData('.../datasets/linearY.csv')
 y=y.reshape((99,))
 
 #data normalization
